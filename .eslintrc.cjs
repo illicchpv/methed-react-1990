@@ -17,7 +17,7 @@ module.exports = {
       { allowConstantExport: true },
     ],
     "react/react-in-jsx-scope": "off",
-    "react/prop-types": "off",
+    "react/prop-types": "off", // !
     "no-console": "off",
     "no-loop-func": ["error"],
     "eqeqeq": ["error", "always"],
