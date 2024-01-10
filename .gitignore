@@ -13,8 +13,9 @@ dist-ssr
 *.local
 
 # Editor directories and files
+/.vscode
 .vscode/*
-!.vscode/extensions.json
+# !.vscode/extensions.json
 .idea
 .DS_Store
 *.suo
@@ -22,3 +23,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+.---*
+/.ignore
+isLocal.js
+.cspell
